@@ -1,0 +1,133 @@
+body {
+    background-color: #f9f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.marco-color {
+    background-color: #ffb3c6;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.marco-coral {
+    background-color: #ffe5ec;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.padre {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #ffe5ec;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 2fr 2fr 1fr 3fr 1fr 2fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "c1 c2 c2 c2 c2 c8"
+        "c1 c3 c4 c4 c4 c8"
+        "c1 c3 c5 c6 c7 c8"
+        "c1 c9 c9 c9 c9 c8"
+        "c10 c10 c10 c10 c10 c10";
+}
+
+.c1 {
+    grid-area: c1;
+    background-color: #c9184a;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.c2 {
+    grid-area: c2;
+    background-color: #ff758f;
+    padding: 25px;
+    font-family: fantasy;
+}
+
+.c3 {
+    grid-area: c3;
+    background-color: #ff758f;
+}
+
+.c4 {
+    grid-area: c4;
+    background-color: #ff758f;
+}
+
+.c5 {
+    grid-area: c5;
+    background-color: #ff758f;
+}
+
+.c6 {
+    grid-area: c6;
+    background-color: #ff758f;
+}
+
+.c7 {
+    grid-area: c7;
+    background-color: #ff758f;
+}
+
+.c8 {
+    grid-area: c8;
+    background-color: #c9184a;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.c9 {
+    grid-area: c9;
+    background-color: #ff758f;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 15px;
+}
+
+.cuadro {
+    background-color: #ff4d6d;
+}
+
+.c10 {
+    grid-area: c10;
+    background-color: #c9184a;
+    color: #fff0f3;
+    font-size: 25px;
+    padding: 20px;
+    font-family: monospace;
+}
+
+.circulo {
+    background-color: #fff0f3;
+    border-radius: 50%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.grande {
+    width: 100px;
+    height: 100px;
+}
+
+.pequeno {
+    width: 60px;
+    height: 60px;
+}
+
+.centro {
+    width: 35px;
+    height: 35px;
+    background-color: #590d22;
+    border-radius: 50%;
+}
